@@ -1,0 +1,505 @@
+@CHARSET "UTF-8";@import "compact1.css";@import "compact2.css";#finishNowDialog span.lvl{font-size:12px;color:#F88C1F;font-weight:bold;}
+.ie7 #finishNowDialog .buttonWrapper button.gold,#finishNowDialog .buttonWrapper{text-align:center;}
+#tileDetails{width:552px;}.dialog #tileDetails{overflow:hidden;position:relative;}
+#tileDetails .detailImage{background-position:0 0;width:319px;min-height:0;padding-top:218px;}
+#tileDetails.landscape .detailImage{width:552px;padding-top:336px;}#tileDetails.village-1 .detailImage{background-image:url(../../img/g/detail.popup/village/f1-ltr.png);}
+#tileDetails.village-2 .detailImage{background-image:url(../../img/g/detail.popup/village/f2-ltr.png);}
+#tileDetails.village-3 .detailImage{background-image:url(../../img/g/detail.popup/village/f3-ltr.png);}
+#tileDetails.village-4 .detailImage{background-image:url(../../img/g/detail.popup/village/f4-ltr.png);}
+#tileDetails.village-5 .detailImage{background-image:url(../../img/g/detail.popup/village/f5-ltr.png);}
+#tileDetails.village-6 .detailImage{background-image:url(../../img/g/detail.popup/village/f6-ltr.png);}
+#tileDetails.village-7 .detailImage{background-image:url(../../img/g/detail.popup/village/f7-ltr.png);}
+#tileDetails.village-8 .detailImage{background-image:url(../../img/g/detail.popup/village/f8-ltr.png);}
+#tileDetails.village-9 .detailImage{background-image:url(../../img/g/detail.popup/village/f9-ltr.png);}
+#tileDetails.village-10 .detailImage{background-image:url(../../img/g/detail.popup/village/f10-ltr.png);}
+#tileDetails.village-11 .detailImage{background-image:url(../../img/g/detail.popup/village/f11-ltr.png);}
+#tileDetails.village-12 .detailImage{background-image:url(../../img/g/detail.popup/village/f12-ltr.png);}
+#tileDetails.village-99 .detailImage{background-image:url(../../img/g/detail.popup/village/f3-ltr.png);}
+#tileDetails.village-1 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f1-ltr.png);}
+#tileDetails.village-2 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f2-ltr.png);}
+#tileDetails.village-3 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f3-ltr.png);}
+#tileDetails.village-4 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f4-ltr.png);}
+#tileDetails.village-5 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f5-ltr.png);}
+#tileDetails.village-6 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f6-ltr.png);}
+#tileDetails.village-7 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f7-ltr.png);}
+#tileDetails.village-8 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f8-ltr.png);}
+#tileDetails.village-9 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f9-ltr.png);}
+#tileDetails.village-10 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f10-ltr.png);}
+#tileDetails.village-11 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f11-ltr.png);}
+#tileDetails.village-12 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f12-ltr.png);}
+#tileDetails.village-99 .detailImage.natars{background-image:url(../../img/g/detail.popup/village/natars/f3-ltr.png);}
+#tileDetails.oasis-2 .detailImage{background-image:url(../../img/g/detail.popup/oasis/w2-ltr.jpg);}
+#tileDetails.oasis-3 .detailImage{background-image:url(../../img/g/detail.popup/oasis/w3-ltr.jpg);}
+#tileDetails.oasis-4 .detailImage{background-image:url(../../img/g/detail.popup/oasis/w4-ltr.jpg);}
+#tileDetails.oasis-6 .detailImage{background-image:url(../../img/g/detail.popup/oasis/w6-ltr.jpg);}
+#tileDetails.oasis-7 .detailImage{background-image:url(../../img/g/detail.popup/oasis/w7-ltr.jpg);}
+#tileDetails.oasis-8 .detailImage{background-image:url(../../img/g/detail.popup/oasis/w8-ltr.jpg);}
+#tileDetails.oasis-10 .detailImage{background-image:url(../../img/g/detail.popup/oasis/w10-ltr.jpg);}
+#tileDetails.oasis-11 .detailImage{background-image:url(../../img/g/detail.popup/oasis/w11-ltr.jpg);}
+#tileDetails.oasis-12 .detailImage{background-image:url(../../img/g/detail.popup/oasis/w12-ltr.jpg);}
+#tileDetails.oasis-14 .detailImage{background-image:url(../../img/g/detail.popup/oasis/w14-ltr.jpg);}
+#tileDetails.oasis-15 .detailImage{background-image:url(../../img/g/detail.popup/oasis/w15-ltr.jpg);}
+#tileDetails.landscape-village-normal .detailImage{background-image:url(../../img/g/detail.popup/landscape/village-normal-ltr.jpg);}
+#tileDetails.landscape-village-natars .detailImage{background-image:url(../../img/g/detail.popup/landscape/village-natars-ltr.jpg);}
+#tileDetails.landscape-grassland .detailImage{background-image:url(../../img/g/detail.popup/landscape/grassland-ltr.jpg);}
+#tileDetails.landscape-clay .detailImage{background-image:url(../../img/g/detail.popup/landscape/clay-ltr.jpg);}
+#tileDetails.landscape-forest .detailImage{background-image:url(../../img/g/detail.popup/landscape/forest-ltr.jpg);}
+#tileDetails.landscape-hill .detailImage{background-image:url(../../img/g/detail.popup/landscape/hill-ltr.jpg);}
+#tileDetails.landscape-lake .detailImage{background-image:url(../../img/g/detail.popup/landscape/lake-ltr.jpg);}
+#tileDetails.landscape-vulcano .detailImage{background-image:url(../../img/g/detail.popup/landscape/vulcano-ltr.jpg);}
+.adventureTimers{padding-top:10px;padding-bottom:10px;}.adventureTimers table{background:none;margin-top:5px;margin-bottom:5px;}
+.adventureTimers table td{padding-top:0;padding-bottom:0;}.adventureTimers .adventureArrival{width:100%;}
+.adventureTimers .adventureReturn{width:100%;}.adventureTimers .adventureText{width:30%;vertical-align:top;}
+.adventureTimers .adventureDuration{width:15%;vertical-align:top;}.adventureTimers .adventureTimeAt{width:54%;vertical-align:top;}
+.adventureInfo{margin-top:18px;margin-bottom:18px;}.ie8 .adventureInfo{padding-top:18px;}
+.adventureSend{width:100%;position:relative;text-align:center;}.adventureBackButton{position:absolute;right:0;top:5px;}
+.dialog #tileDetails.village-1 .detailImage{background-image:url(../../img/g/detail/village/f1-ltr.png);}
+.dialog #tileDetails.village-2 .detailImage{background-image:url(../../img/g/detail/village/f2-ltr.png);}
+.dialog #tileDetails.village-3 .detailImage{background-image:url(../../img/g/detail/village/f3-ltr.png);}
+.dialog #tileDetails.village-4 .detailImage{background-image:url(../../img/g/detail/village/f4-ltr.png);}
+.dialog #tileDetails.village-5 .detailImage{background-image:url(../../img/g/detail/village/f5-ltr.png);}
+.dialog #tileDetails.village-6 .detailImage{background-image:url(../../img/g/detail/village/f6-ltr.png);}
+.dialog #tileDetails.village-7 .detailImage{background-image:url(../../img/g/detail/village/f7-ltr.png);}
+.dialog #tileDetails.village-8 .detailImage{background-image:url(../../img/g/detail/village/f8-ltr.png);}
+.dialog #tileDetails.village-9 .detailImage{background-image:url(../../img/g/detail/village/f9-ltr.png);}
+.dialog #tileDetails.village-10 .detailImage{background-image:url(../../img/g/detail/village/f10-ltr.png);}
+.dialog #tileDetails.village-11 .detailImage{background-image:url(../../img/g/detail/village/f11-ltr.png);}
+.dialog #tileDetails.village-12 .detailImage{background-image:url(../../img/g/detail/village/f12-ltr.png);}
+.dialog #tileDetails.village-99 .detailImage{background-image:url(../../img/g/detail/village/f3-ltr.png);}
+.dialog #tileDetails.village-1 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f1-ltr.png);}
+.dialog #tileDetails.village-2 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f2-ltr.png);}
+.dialog #tileDetails.village-3 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f3-ltr.png);}
+.dialog #tileDetails.village-4 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f4-ltr.png);}
+.dialog #tileDetails.village-5 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f5-ltr.png);}
+.dialog #tileDetails.village-6 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f6-ltr.png);}
+.dialog #tileDetails.village-7 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f7-ltr.png);}
+.dialog #tileDetails.village-8 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f8-ltr.png);}
+.dialog #tileDetails.village-9 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f9-ltr.png);}
+.dialog #tileDetails.village-10 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f10-ltr.png);}
+.dialog #tileDetails.village-11 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f11-ltr.png);}
+.dialog #tileDetails.village-12 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f12-ltr.png);}
+.dialog #tileDetails.village-99 .detailImage.natars{background-image:url(../../img/g/detail/village/natars/f3-ltr.png);}
+.dialog #tileDetails.oasis-2 .detailImage{background-image:url(../../img/g/detail/oasis/w2-ltr.jpg);}
+.dialog #tileDetails.oasis-3 .detailImage{background-image:url(../../img/g/detail/oasis/w4-ltr.jpg);}
+.dialog #tileDetails.oasis-4 .detailImage{background-image:url(../../img/g/detail/oasis/w3-ltr.jpg);}
+.dialog #tileDetails.oasis-6 .detailImage{background-image:url(../../img/g/detail/oasis/w6-ltr.jpg);}
+.dialog #tileDetails.oasis-7 .detailImage{background-image:url(../../img/g/detail/oasis/w7-ltr.jpg);}
+.dialog #tileDetails.oasis-8 .detailImage{background-image:url(../../img/g/detail/oasis/w8-ltr.jpg);}
+.dialog #tileDetails.oasis-10 .detailImage{background-image:url(../../img/g/detail/oasis/w10-ltr.jpg);}
+.dialog #tileDetails.oasis-11 .detailImage{background-image:url(../../img/g/detail/oasis/w11-ltr.jpg);}
+.dialog #tileDetails.oasis-12 .detailImage{background-image:url(../../img/g/detail/oasis/w12-ltr.jpg);}
+.dialog #tileDetails.oasis-14 .detailImage{background-image:url(../../img/g/detail/oasis/w14-ltr.jpg);}
+.dialog #tileDetails.oasis-15 .detailImage{background-image:url(../../img/g/detail/oasis/w15-ltr.jpg);}
+.dialog #tileDetails.landscape-clay .detailImage{background-image:url(../../img/g/detail/landscape/clay-ltr.jpg);}
+.dialog #tileDetails.landscape-forest .detailImage{background-image:url(../../img/g/detail/landscape/forest-ltr.jpg);}
+.dialog #tileDetails.landscape-hill .detailImage{background-image:url(../../img/g/detail/landscape/hill-ltr.jpg);}
+.dialog #tileDetails.landscape-lake .detailImage{background-image:url(../../img/g/detail/landscape/lake-ltr.jpg);}
+.dialog #tileDetails.landscape-vulcano .detailImage{background-image:url(../../img/g/detail/landscape/vulcano-ltr.jpg);}
+#tileDetails th,#tileDetails td{padding-left:0;padding-right:0;}#tileDetails h1{font-size:13px;margin-bottom:8px;}
+#tileDetails h1 table.coordinates td{font-size:13px;}#tileDetails h4{font-size:13px;margin-bottom:5px;}
+#tileDetails h1 span.mainVillage,.positionDetails h1 span.mainVillage{font-size:11px;font-weight:normal;margin-left:3px;}
+.dialog #tileDetails h1 span.mainVillage{color:#C0C0C0;}#tileDetails .detailImage{float:left;margin-right:16px;}
+.ie6 #tileDetails .detailImage{margin-right:0;}#tileDetails .detailImage .options{margin-top:16px;}
+.ie6 #tileDetails .detailImage .options{padding-top:16px;}#tileDetails .detailImage .option{margin-top:2px;padding-left:10px;padding-top:4px;height:19px;}
+#tileDetails .detailImage .a.arrow{display:block;font-size:13px;}#tileDetails div#map_details{float:right;width:217px;}
+#tileDetails table#village_info,#tileDetails table#distribution,#tileDetails table#troop_info{margin-bottom:20px;}
+#tileDetails table tr.first th,#tileDetails table tr.first td{padding-top:0;}#tileDetails table#village_info tbody th{width:35%;}
+#tileDetails table#village_info tbody td{font-weight:bold;}#tileDetails table#village_info tbody th,#tileDetails table#village_info tbody td{padding-top:3px;}
+#tileDetails table#village_info tbody tr.first th,#tileDetails table#village_info tbody tr.first td{padding-top:0;}
+#tileDetails table#troop_info .ico{width:10%;}#tileDetails table#troop_info .val{width:10%;text-align:right;padding-right:5px;}
+#tileDetails table#troop_info .val{font-weight:bold;}#tileDetails table#troop_info ul{margin-top:0;margin-right:0;margin-bottom:0;margin-left:2px;padding-left:12px;}
+#tileDetails table#troop_info.rep tbody{line-height:16px;}#tileDetails table#troop_info.rep img{float:left;margin-right:5px;}
+#tileDetails table#distribution{width:100%;}#tileDetails table#distribution .ico{width:10%;}
+#tileDetails table#distribution .val{width:10%;text-align:right;padding-right:5px;}
+#tileDetails table#distribution .val{font-weight:bold;}img.g35{background-image:url(../../img/g/g35_brewery-ltr.png);}
+.ie6 img.g35{background-image:url(../../img/g/g35_brewery-ltr.gif);}img.g35b{background-image:url(../../img/g/construction/g35b_brewery-ltr.png);}
+.ie6 img.g35b{background-image:url(../../img/g/construction/g35b_brewery-ltr.gif);}
+img.g35Icon{background-image:url(../../img/g/icon/g35Icon_brewery.gif);}.ie7 img.g35.big.white,.ie8 img.g35.big.white,.ie9 img.g35.big.white,.webkit img.g35.big.white,.gecko img.g35.big.white,.presto img.g35.big.white{background-image:url(../../img/g/big/white/g35_brewery-ltr.png);}
+.ie7 img.g35.big.black,.ie8 img.g35.big.black,.ie9 img.g35.big.black,.webkit img.g35.big.black,.gecko img.g35.big.black,.presto img.g35.big.black{background-image:url(../../img/g/big/black/g35_brewery-ltr.png);}
+.ie6 div.build_desc img.g35{background-image:url(../../img/g/big/black/g35_brewery-ltr.gif);}
+.ie6 div.dialog .manual img.g35{background-image:url(../../img/g/big/black/g35_brewery-ltr.gif);}
+body.qualificationServerLoader,body.qualificationServerLogin,body.qualificationServerLogout,body.qualificationServerSignup,body.qualificationServerSupport,body.qualificationServerActivate,body.qualificationServerError_site,body.qualificationServerFatal_error,body.qualificationServerBanned_cn{background-image:url(../../img/layout/bgQ.jpg);}
+body.qualificationServerLoader #background,body.qualificationServerLogin #background,body.qualificationServerLogout #background,body.qualificationServerSignup #background,body.qualificationServerSupport #background,body.qualificationServerActivate #background,body.qualificationServerError_site #background,body.qualificationServerFatal_error #background,body.qualificationServerBanned_cn #background{background-image:url(../../img/layout/bgQualification-ltr.jpg);}
+body.qualificationServerLoader div#header a#logo,body.qualificationServerLogin div#header a#logo,body.qualificationServerLogout div#header a#logo,body.qualificationServerSignup div#header a#logo,body.qualificationServerSupport div#header a#logo,body.qualificationServerActivate div#header a#logo,body.qualificationServerError_site div#header a#logo,body.qualificationServerFatal_error div#header a#logo,body.qualificationServerBanned_cn div#header a#logo{position:absolute;left:195px;top:30px;margin:0;width:241px;height:83px;background-image:url(../../img/layout/travianLogoQualification.png);}
+body.ie6.qualificationServerLoader div#header a#logo,body.ie6.qualificationServerLogin div#header a#logo,body.ie6.qualificationServerLogout div#header a#logo,body.ie6.qualificationServerSignup div#header a#logo,body.ie6.qualificationServerSupport div#header a#logo,body.ie6.qualificationServerActivate div#header a#logo,body.ie6.qualificationServerError_site div#header a#logo,body.ie6.qualificationServerFatal_error div#header a#logo,body.ie6.qualificationServerBanned_cn div#header a#logo{background-image:url(../../img/layout/travianLogoQualification.jpg);}
+body.qualificationServerLoader #tournamentLogo,body.qualificationServerLogin #tournamentLogo,body.qualificationServerLogout #tournamentLogo,body.qualificationServerSignup #tournamentLogo,body.qualificationServerSupport #tournamentLogo,body.qualificationServerActivate #tournamentLogo,body.qualificationServerError_site #tournamentLogo,body.qualificationServerFatal_error #tournamentLogo,body.qualificationServerBanned_cn #tournamentLogo{position:absolute;right:200px;top:0;margin:0;width:237px;height:116px;background-image:url(../../img/layout/tournamentLogoQualification.png);}
+body.ie6.qualificationServerLoader #tournamentLogo,body.ie6.qualificationServerLogin #tournamentLogo,body.ie6.qualificationServerLogout #tournamentLogo,body.ie6.qualificationServerSignup #tournamentLogo,body.ie6.qualificationServerSupport #tournamentLogo,body.ie6.qualificationServerActivate #tournamentLogo,body.ie6.qualificationServerError_site #tournamentLogo,body.ie6.qualificationServerFatal_error #tournamentLogo,body.ie6.qualificationServerBanned_cn #tournamentLogo{background-image:url(../../img/layout/tournamentLogoQualification.gif);}
+.gecko div.activate div.ffBug{height:1px;display:block;}.highlighted.rectangle{background-color:#f00;}
+.highlighted.rectangle.left,.highlighted.rectangle.right{width:3px;}.highlighted.rectangle.top,.highlighted.rectangle.bottom{height:3px;}
+.highlighted.rectangle.top.left{border-top-left-radius:4px;}.highlighted.rectangle.top.right{border-top-right-radius:4px;}
+.highlighted.rectangle.bottom.right{border-bottom-right-radius:4px;}.highlighted.rectangle.bottom.left{border-bottom-left-radius:4px;}
+.ie .highlighted.rectangle.top.left{border-top-left-radius:4px;border-top-right-radius:0;}
+.ie .highlighted.rectangle.top.right{border-top-right-radius:4px;border-top-left-radius:0;}
+.ie .highlighted.rectangle.bottom.right{border-bottom-right-radius:4px;border-bottom-left-radius:0;}
+.ie .highlighted.rectangle.bottom.left{border-bottom-left-radius:4px;border-bottom-right-radius:0;}
+img.building.g8.highlighted.background{background-image:url("../../img/g/outline/g8-ltr.png");}
+img.building.g25.highlighted.background{background-image:url("../../img/g/outline/g25-ltr.png");}
+.headerAdventures{line-height:20px;height:25px;padding-bottom:10px;padding-top:10px;font-weight:bold;}
+div.durationCalculationsContainer img.openedClosedSwitch{width:18px;height:18px;float:left;padding:0;margin-right:5px;}
+.adventureStatusMessage{padding:5px 10px;margin-bottom:10px;}.adventureStatusMessage .subMessage,.attribute .subMessage{padding-left:20px;font-style:italic;}
+.durationCalculationsContainer{padding-top:5px;padding-left:5px;padding-bottom:5px;}
+.walkingDurationToImage{padding-left:5px;}#chooseOtherVillageLink{color:#252525;}
+.durationCalculations{margin-top:10px;margin-left:30px;}.durationCalculationsContainer .close{margin-top:-4px;}
+#infoMoveHero{padding-top:10px;padding-left:5px;}.durationCalculations select{min-width:150px;}
+.slower{color:#fc9511;}.faster{color:#498843;}#adventureListForm a.disabled{color:#d2d2d2;cursor:default;}
+div#rallyPointNeeded{padding-top:10px;padding-left:5px;padding-bottom:10px;}#heroInVillageInfo{padding:5px;pading-top:10px;}
+.moveHeroLink{float:right;}#build.gid17 .whereAreMyMerchants{line-height:20px;float:left;width:48%;}
+#build.gid17 .npcMerchant{float:right;width:48%;}#build.gid17 .npcMerchant button{margin-top:3px;}
+table#send_select hr{margin:0;}#enabledButton.sendRessources{padding-right:0;}div#build.gid17 div.carry{padding-bottom:15px;}
+.merchantCapacityVisualization.LTR{float:right;}.merchantCapacityVisualization.RTL{float:left;}
+.merchantCapacity.LTR{float:left;}.merchantCapacity.RTL{float:right;}.invisibleButton{display:none;}
+div#build.gid17 button.confirm{float:right;}form#marketSend div#button{height:35px;}
+#button button.goBack{padding-left:3px;float:left;}#button button.sendRessources,#button button.prepare{float:right;}
+div#build.gid17 span.pleaseConfirm{color:#a2a2a2;font-weight:normal;padding-left:0;}
+#notEnoughMerchantsError{padding-bottom:10px;}#prepareError{padding-left:3px;float:left;width:70%;}
+a.notClickable{cursor:default;color:#d2d2d2;}div.options td.sel{width:3%;text-align:center;padding-right:0;padding-left:15px;}
+div.options table.set input.radio{position:relative;top:1px;}body.presto div.options table.set input.radio{top:0;}
+body.ie6 div.options table.set input.radio,body.ie7 div.options table.set input.radio{top:-2px;}
+div.options table#links td.nr input.text{width:20px;}div.options table#links td.nam input.text{width:175px;}
+div.options table#links td.link input.text{width:240px;}div.options table#timeSettings tbody th,div.options table#languageSettings tbody th{width:20%;}
+div.options table#timeSettings tbody th.timeFormat{vertical-align:top;padding-top:11px;}
+div.options table#entriesPerPage input.messageReport,div.options table#entriesPerPage input.troopMovementsPerPage{width:20px;}
+div.options table#timeSettings select,div.options table#languageSettings select{width:185px;}
+div.options table#advertisement tbody th{width:25%;}div.options table#advertisement span.note{margin-left:10px;font-size:10px;}
+div.options #timeSettings label,div.options #advertisement label{margin:6px 0;display:block;}
+div.options div.text{padding:6px 9px 3px;}div.options table.account tbody th{width:20%;white-space:nowrap;}
+div.options table#change_pass input.text{width:150px;}div.options table#change_mail tbody th{width:20%;white-space:nowrap;}
+div.options table#change_mail th.process{color:#F00;}div.options div.text p.maxSitters{font-size:12px;margin-top:0;}
+div.options .sitters div.boxes-contents,div.options .sitters2 div.boxes-contents{text-align:center;padding:2px 0;}
+div.options .sitters th{padding:0 6px;}div.options .sitters div.boxes-contents,div.options .sitters2 div.boxes-contents{padding:4px 25px;}
+div.options .sitters div.boxes-contents span,div.options .sitters2 div.boxes-contents span{white-space:nowrap;color:#FFF;}
+div.options table.sitters2{margin-top:5px;}div.options table.sitters2 td{text-align:center;}
+div.options .sitters td{width:5%;padding:0;}div.options .sitters td{width:95%;padding:1px 5px;}
+div.options tr.sitterHead td{padding:2px 4px;}div.options table.sitters2 td.name{white-space:nowrap;width:20%;}
+div.options table#sharedUsage th{width:20%;white-space:nowrap;}div.options table#del_acc td.del_selection{text-align:left;}
+div.options table#del_acc td.del_selection label{margin-right:20px;}div.options div.submitButtonContainer{text-align:center;margin-top:15px;}
+div.options table#del_acc td.count{font-weight:bold;}div.options table#del_acc td.count span{color:#FF8000;}
+div.options table#del_acc input.radio{position:relative;top:1px;}body.presto div.options table#del_acc input.radio{top:0;}
+body.ie6 div.options table#del_acc input.radio,body.ie7 div.options table#del_acc input.radio{top:-2px;}
+div.options table#gpack td{text-align:left;height:24px;}div.options table#gpack td span.alert{color:#F00;font-weight:bold;}
+div.options table#gpack td input.radio{position:relative;top:1px;margin-left:2px;margin-right:2px;}
+body.presto div.options table#gpack td input.radio{top:0;}body.ie6 div.options table#gpack td input.radio,body.ie7 div.options table#gpack td input.radio{top:-2px;}
+div.options table#gpack td input.text{margin-left:15px;width:220px;}div.options table#gpack td div.example{margin-left:22px;font-size:11px;}
+div.options table#gpack td div.example span.path{color:#FF8000;}div.options table#download thead td{white-space:nowrap;}
+div.options table#gpack td.info{text-align:center;font-size:11px;}div.options table#download td.nam{text-align:left;}
+div.options table#download td.size{width:22%;}div.options table#download td.act{width:22%;}
+div.options table#download td.down{width:22%;}div.options table#other td.noOptions{font-style:italic;color:#858585;}
+a#emBanner{width:163px;height:117px;background-image:url(../../img/misc/emBanner.png);display:block;z-index:30;}
+.ie6 a#emBanner{background-image:url(../../img/misc/emBanner.gif);}a.emBannerUnderVillageList{position:relative;left:21px;}
+a.emBannerUnderVillageName{position:absolute;left:-805px;top:200px;}div.emSpecial div.voteInfos{padding:0 10px;}
+div.emSpecial span.emManualHeader{font-weight:bold;text-decoration:underline;}div.emSpecial ul.emManual{padding-left:14px;margin:5px 0;}
+div.emSpecial p.emManualDescription{font-style:italic;}div.emSpecial table.currentValues{margin-bottom:10px;}
+div.emSpecial table.currentValues td,div.emSpecial table.currentValues th{font-weight:bold;vertical-align:top;padding:5px 0 0;}
+div.emSpecial table.currentValues th{width:50%;}div.emSpecial table.currentValues td.showInfo{color:#F88C1F;}
+div.emSpecial table.currentValues td.prizeHint{font-style:italic;font-size:10px;padding:0;line-height:11px;}
+div.emSpecial div.buttonWrapper{text-align:right;}div.emSpecial ul#emPossibleWinners{list-style:none;padding-left:10px;}
+div.emSpecial ul#emPossibleWinners li{float:left;width:260px;margin-bottom:2px;}
+div.emSpecial ul#emPossibleWinners img.flags{margin-top:5px;height:11px;width:16px;background-image:url(../../img/misc/flags/country_sprite.png);border-top:1px solid #AAA;}
+.ie6 div.emSpecial ul#emPossibleWinners img.flags{background-image:url(../../img/misc/flags/country_sprite.gif);}
+div.emSpecial ul#emPossibleWinners img.flag_de{background-position:-880px 0;}div.emSpecial ul#emPossibleWinners img.flag_ru{background-position:-3008px 0;}
+div.emSpecial ul#emPossibleWinners img.flag_gr{background-position:-1424px 0;}div.emSpecial ul#emPossibleWinners img.flag_pl{background-position:-2816px 0;}
+div.emSpecial ul#emPossibleWinners img.flag_cz{background-position:-864px 0;}div.emSpecial ul#emPossibleWinners img.flag_dk{background-position:-912px 0;}
+div.emSpecial ul#emPossibleWinners img.flag_nl{background-position:-2608px 0;}div.emSpecial ul#emPossibleWinners img.flag_pt{background-position:-2896px 0;}
+div.emSpecial ul#emPossibleWinners img.flag_ie{background-position:-1632px 0;}div.emSpecial ul#emPossibleWinners img.flag_it{background-position:-1744px 0;}
+div.emSpecial ul#emPossibleWinners img.flag_hr{background-position:-1568px 0;}div.emSpecial ul#emPossibleWinners img.flag_es{background-position:-1072px 0;}
+div.emSpecial ul#emPossibleWinners img.flag_uk,div.emSpecial ul#emPossibleWinners img.flag_gb{background-position:-1040px 0;}
+div.emSpecial ul#emPossibleWinners img.flag_fr{background-position:-1216px 0;}div.emSpecial ul#emPossibleWinners img.flag_se{background-position:-3120px 0;}
+div.emSpecial ul#emPossibleWinners img.flag_ua{background-position:-3616px 0;}a#goldSpecialBanner{width:159px;height:122px;background-image:url(../../img/misc/goldSpecial/speed/banner.png);display:block;z-index:30;}
+.ie6 a#goldSpecialBanner{background-image:url(../../img/misc/goldSpecial/speed/banner.gif);}
+a.goldSpecialBannerUnderVillageList{position:relative;left:21px;}a.goldSpecialBannerUnderVillageName{position:absolute;left:-805px;top:200px;}
+div.goldSpecialSpeed h5{font-size:18pt;font-weight:bold;margin:20px 0;}div.goldSpecialSpeed img.goldSpecialSpeed5,div.goldSpecialSpeed img.goldSpecialSpeed10{height:99px;width:99px;}
+div.goldSpecialSpeed img.goldSpecialSpeed5{background-image:url(../../img/misc/goldSpecial/speed/speed_payment_5.jpg);}
+div.goldSpecialSpeed img.goldSpecialSpeed10{background-image:url(../../img/misc/goldSpecial/speed/speed_payment_10.jpg);}
+div.goldSpecialSpeed table td{padding-left:0;}div.linklist p.linklistDescription{margin-top:0;}
+div.linklist td.sel{width:3%;text-align:center;padding-right:0;padding-left:15px;}
+div.linklist table#links thead td{font-weight:bold;}div.linklist table#links td.nr input.text{width:20px;}
+div.linklist table#links td.nam input.text{width:175px;}div.linklist table#links td.link input.text{width:240px;}
+div.linklist table#links button{height:18px;width:18px;}div.linklist table#links button.addElement{background-image:url(../../img/a/btnPlus-small.png);}
+div.linklist table#links button.removeElement{background-image:url(../../img/a/btnMinus-small.png);}
+div.linklist table#links button.hover{background-position:0 -28px;}div.linklist table#links button.click{background-position:0 -56px;}
+div.linklist div.submitButtonContainer{text-align:right;margin-top:15px;}body.manual{background-color:transparent;background-image:none;color:#252525;min-width:0;}
+body.manual table,body.manual table tr,body.manual table td,body.manual table th{background-color:transparent;border:0;color:#252525;vertical-align:top;}
+body.manual .mainMenu{width:40%;float:left;color:black;}body.manual a.manualBack{font-weight:normal;}
+body.manual h1{color:#252525;font-size:13px;}body.manual h3{color:#252525;margin:10px 0 5px 0;}
+body.manual .subMenu{width:40%;float:left;padding-top:31px;}body.manual .subMenu ul{margin-top:0;list-style:none;}
+body.manual .mainMenu ul{margin-top:0;list-style:none;}body.manual .mainMenu ul span{color:#99C01A;font-weight:bold;}
+body.manual,body.manual #buildings,body.manual #troops{width:474px;float:left;}body.manual #buildings H3,body.manual #troops H3{margin:0 0 10px 0;}
+body.manual #buildings H3 img,body.manual #troops H3 img{vertical-align:middle;}
+body.manual .boxes{float:left;margin-top:6px;}* html body.manual .boxes,*+html body.manual .boxes{width:320px;}
+body.manual p{margin-top:0;}body.manual h1 img{margin-right:5px;vertical-align:middle;}
+body.manual ul{margin:0;padding:0;padding-left:12px;float:left;}* html body.manual ul{width:462px;}
+body.manual ul li{list-style-type:none;line-height:23px;width:221px;float:left;margin-right:10px;}
+* html body.manual ul li{height:23px;}body.manual ul li img{vertical-align:middle;}
+body.manual ul li a{margin-left:13px;}body.manual #buildings{margin-top:30px;}body.manual p.description{float:left;width:278px;}
+body.manual img.building{float:right;margin-top:-10px;}body.manual p.costsHeader,body.manual div.showCosts{float:left;width:278px;}
+body.manual div.bigUnitSection{float:right;margin-top:6px;}body.manual div.bigUnitSection img{height:205px;background-repeat:no-repeat;background-position:0 center;}
+body.manual table#troop_info{float:left;margin:10px 7px 10px 25px;width:288px;}* html body.manual table#troop_info{display:inline;}
+body.manual table#troop_info td{width:25%;text-align:left;padding-right:3px;padding-left:0;white-space:nowrap;}
+body.manual table#troop_info td img{width:18px;margin-right:5px;vertical-align:middle;}
+body.manual table#troop_details{width:60%;background-color:#FFF;}body.manual table.troopData{float:left;margin:10px 7px 10px 25px;width:288px;}
+* html body.manual table.troopData{display:inline;}body.manual table.troopData th,body.manual table.troopData td{width:50%;text-align:left;padding-right:18px;padding-left:0;}
+body.manual table.troopData td img{width:18px;margin-right:5px;vertical-align:middle;}
+body.manual div#t_desc{margin-top:15px;float:left;width:100%;}body.manual img#big_unit{float:right;width:150px;height:120px;margin:-30px 0 0 2px;}
+body.manual div#prereqs{margin-top:35px;float:left;width:100%;line-height:20px;}
+body.manual .answers{margin-top:15px;}div.balanceCropBalancePart,div.productionPerHourTotal,div.productionPerHour{width:304px;float:left;}
+div.cropBalanceContainer,div.productionContainer{position:relative;float:left;width:100%;}
+div.productionContainer h4{margin-bottom:10px;}div.total.productionContainer{margin-top:20px;clear:all;}
+div.productionBoostSpeechBubble,div.fluidSpeechBubble{float:right;width:230px;margin-top:2px;}
+div.cropBalanceContainer div.productionBoostSpeechBubble{position:relative;height:160px;}
+div.fluidSpeechBubble{min-height:55px;}div.productionBoostSpeechBubble .speechArrowBack{bottom:auto;top:26px;}
+div.productionBoostSpeechBubble h5{margin-bottom:3px;}div.productionBoostSpeechBubble td{padding:3px 5px;}
+div.productionContainer .productionBoostResourceSpeechBubble,div.cropBalanceContainer .productionBoostResourceSpeechBubble{position:absolute;bottom:0;right:0;}
+.ie6 div.productionContainer .productionBoostResourceSpeechBubble,.ie6 div.cropBalanceContainer .productionBoostResourceSpeechBubble{right:-20px;}
+div.productionBoostResourceSpeechBubble .speechArrowBack{top:auto;bottom:23px;}div.cropBalanceContainer div.productionBoostResourceSpeechBubble .speechArrowBack{bottom:10px;}
+div.productionBoostResourceSpeechBubble .productionBoostSpeechBubbleFurtherInfo{font-style:italic;font-size:11px;}
+div.productionBoostResourceSpeechBubble p{margin:5px;}div.cropBalanceContainer .balanceCropBalancePart .subtotal td,div.productionContainer .productionPerHourTotal .subtotal td{border-bottom:1px solid black;}
+div.cropBalanceContainer .balanceCropBalancePart .total td,div.productionContainer .productionPerHourTotal .total td{white-space:nowrap;border-bottom:3px double black;}
+div.productionContainer .productionPerHour table,div.productionContainer .productionPerHour tr,div.productionContainer .productionPerHour td{border-collapse:collapse;border:1px solid #d6d6d6;}
+div.productionPerHour table thead td{text-align:left;padding:6px 9px 3px;}div.productionPerHourTotal .row_table_data tr{line-height:13px;}
+div.productionPerHour table .productionSum td{font-weight:bold;}div.cropBalanceContainer table .numberCell,div.productionContainer table .numberCell{text-align:right;vertical-align:bottom;width:5%;}
+div.cropBalanceContainer .balanceCropBalancePart{margin-bottom:10px;}div.cropBalanceContainer .balanceTroops table,div.cropBalanceContainer .balanceTroops tr,div.cropBalanceContainer .balanceTroops td{border-collapse:collapse;background-color:#e4e4e4;padding:4px 0 3px;}
+div.cropBalanceContainer .balanceTroops .troopLabel{padding-left:32px;}div.cropBalanceContainer .emptyStorageSpeechBubble{position:absolute;right:0;bottom:0;width:205px;}
+div.cropBalanceContainer .emptyStorageSpeechBubble p{margin:2px;}div.cropBalanceContainer .emptyStorageSpeechBubble .fluidSpeechBubble .speechArrowBack{top:auto;bottom:12px;}
+.questWrapper{font-size:12px;width:566px;height:375px;padding-top:10px;}.questWrapper.achievements{padding-top:0;}
+.questWrapper.achievements.mainDialog{height:595px;}.ie7 .questWrapper.achievements.mainDialog{height:650px;}
+div.dialog div.content hr.achievementLine{border-style:none none solid;border-color:#DCD6CA;margin-bottom:10px;margin-top:10px;}
+.questWrapper .questImage{float:right;width:130px;margin-left:10px;margin-bottom:10px;}
+.questWrapper .questImage img{margin-bottom:10px;width:130px;height:130px;}.questWrapper .questImage .tipsWrapper{position:relative;}
+.questWrapper .questImage .tipsWrapper .questTipsToggleDescription{position:absolute;top:9px;left:35px;}
+.questWrapper .questText{float:left;width:400px;margin-bottom:-10px;}.questWrapper .questDescription,.questWrapper .questTasks,.questWrapper .questRewards{margin:15px 0 25px 10px;}
+.questWrapper.achievements .questDescription,.questWrapper.achievements .questTasks,.questWrapper.achievements .questRewards,.questWrapper.achievements .questTextHighlight,.questWrapper.achievements .questAchievementPoints,.questWrapper.achievements .questDifficulty{margin:0 0 10px 10px;}
+.questWrapper .questTasks ul#questTodolist{padding:0;list-style:none;margin:0;}.questWrapper .questTasks ul#questTodolist li{margin-bottom:5px;padding-left:15px;position:relative;}
+.questWrapper .questTasks ul#questTodolist li img{position:absolute;width:4px;height:4px;left:4px;top:6px;background-image:url(../../img/activate/dot.png);}
+.questWrapper .questTasks ul#questTodolist li.finished,.questWrapper .questTasks ul#questTodolist li.reward{color:#777;}
+.questWrapper .questTasks ul#questTodolist li.finished img,.questWrapper .questTasks ul#questTodolist li.reward img{left:0;top:0;width:12px;height:12px;background-image:url(../../img/a/check.png);}
+.questWrapper h4{margin-bottom:0;}.questWrapper .questRewards{margin-top:10px;}.questWrapper .questRewards ul.questRewardsList{width:470px;}
+.questWrapper .questRewards ul.questRewardsList li{float:left;margin-right:20px;}
+.questWrapper .questRewards img{height:16px;width:16px;}.questWrapper .questRewards img.questRewardTypeResource{background:url(../../img/a/res2Big-ltr.gif);}
+.questWrapper .questRewards img.questRewardTypeGold{background:url(../../img/round/button/content/goldInner-ltr.png);height:14px;width:14px;}
+.questWrapper .questRewards img.questRewardTypeItem{background:url(../../img/hero/item.gif);}
+.questWrapper .questRewards img.questRewardTypeItem.item112{background-position:0 224px;}
+.questWrapper .questRewards img.questRewardTypeItem.item106{background-position:0 120px;}
+.questWrapper .questRewards img.questRewardTypeItem.item114{background-position:0 172px;}
+.questWrapper .questRewards img.questRewardTypeWood{background-position:left 0;}
+.questWrapper .questRewards img.questRewardTypeClay{background-position:left -26px;}
+.questWrapper .questRewards img.questRewardTypeIron{background-position:left -52px;}
+.questWrapper .questRewards img.questRewardTypeCrop{background-position:left -78px;}
+.questWrapper .questButtons{position:relative;margin-top:10px;}.questWrapper .questButtons button{position:absolute;}
+.questWrapper button.questButtonNext,.questWrapper button.questButtonSkipTutorial,.questWrapper button.questButtonClose{right:0;}
+.questWrapper button.questButtonOverview{left:0;}.questWrapper button.questButtonGainReward{right:0;}
+.questWrapper button.questButtonSkipTutorial{top:50px;}.questWrapper .questTodoList{padding:0;}
+.questWrapper .questTodoList li{list-style:none;}.questWrapper .questTodoList .questCategoryHeadline{background:lime;font-weight:bold;}
+.questWrapper .questTodoList .questCategoryHeadline .questCategoryName{float:left;}
+.questWrapper .questTodoList .questCategoryHeadline .questCategoryStats{float:right;}
+.questWrapper .questTodoList .questName{margin-left:20px;}.questWrapper .categoryProgress{float:right;}
+.questWrapper .questImage img.tutorial_01_task_image_vid1{background-image:url(../../img/quests/descriptionImage/tutorial_01_task_image_vid1-ltr.png);}
+.questWrapper .questImage img.tutorial_01_task_image_vid2{background-image:url(../../img/quests/descriptionImage/tutorial_01_task_image_vid2-ltr.png);}
+.questWrapper .questImage img.tutorial_01_task_image_vid3{background-image:url(../../img/quests/descriptionImage/tutorial_01_task_image_vid3-ltr.png);}
+.questWrapper .questImage img.tutorial_02_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_02_reward_image-ltr-ignore.png);}
+.questWrapper .questImage img.tutorial_02_task_image_vid1{background-image:url(../../img/quests/descriptionImage/tutorial_02_task_image_vid1-ltr.png);}
+.questWrapper .questImage img.tutorial_02_task_image_vid2{background-image:url(../../img/quests/descriptionImage/tutorial_02_task_image_vid2-ltr.png);}
+.questWrapper .questImage img.tutorial_02_task_image_vid3{background-image:url(../../img/quests/descriptionImage/tutorial_02_task_image_vid3-ltr.png);}
+.questWrapper .questImage img.tutorial_03_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_03_reward_image-ltr-ignore.png);}
+.questWrapper .questImage img.tutorial_03_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_03_task_image-ltr.png);}
+.questWrapper .questImage img.tutorial_04_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_04_reward_image-ltr-ignore.png);}
+.questWrapper .questImage img.tutorial_04_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_04_task_image-ltr-ignore.png);}
+.questWrapper .questImage img.tutorial_05_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_05_reward_image-ltr-ignore.png);}
+.questWrapper .questImage img.tutorial_05_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_05_task_image-ltr.png);}
+.questWrapper .questImage img.tutorial_06_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_06_reward_image-ltr-ignore.png);}
+.questWrapper .questImage img.tutorial_06_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_06_task_image-ltr-ignore.png);}
+.questWrapper .questImage img.tutorial_07_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_07_task_image-ltr.png);}
+.questWrapper .questImage img.tutorial_08_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_08_reward_image-ltr-ignore.png);}
+.questWrapper .questImage img.tutorial_08_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_08_task_image-ltr.png);}
+.questWrapper .questImage img.tutorial_09_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_09_reward_image-ltr-ignore.png);}
+.questWrapper .questImage img.tutorial_09_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_09_task_image-ltr.png);}
+.questWrapper .questImage img.tutorial_10_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_10_reward_image-ltr-ignore.png);}
+.questWrapper .questImage img.tutorial_10_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_10_task_image-ltr-ignore.png);}
+.questWrapper .questImage img.tutorial_11_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_11_reward_image-ltr-ignore.png);}
+.questWrapper .questImage img.tutorial_11_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_11_task_image-ltr-ignore.png);}
+.questWrapper .questImage img.tutorial_12_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_12_reward_image-ltr-ignore.png);}
+.questWrapper .questImage img.tutorial_12_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_12_task_image-ltr-ignore.png);}
+.questWrapper .questImage img.tutorial_13_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_13_reward_image-ltr-ignore.png);}
+.questWrapper .questImage img.tutorial_13_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_13_task_image-ltr-ignore.png);}
+.questWrapper .questImage img.tutorial_14_reward_image{background-image:url(../../img/quests/descriptionImage/tutorial_14_reward_image-ltr-ignore.png);}
+.questWrapper .questImage img.tutorial_14_task_image_vid1{background-image:url(../../img/quests/descriptionImage/tutorial_14_task_image_vid1-ltr.png);}
+.questWrapper .questImage img.tutorial_14_task_image_vid2{background-image:url(../../img/quests/descriptionImage/tutorial_14_task_image_vid2-ltr.png);}
+.questWrapper .questImage img.tutorial_14_task_image_vid3{background-image:url(../../img/quests/descriptionImage/tutorial_14_task_image_vid3-ltr.png);}
+.questWrapper .questImage img.tutorial_15_reward_image_vid1{background-image:url(../../img/quests/descriptionImage/tutorial_15_reward_image_vid1-ltr.png);}
+.questWrapper .questImage img.tutorial_15_reward_image_vid2{background-image:url(../../img/quests/descriptionImage/tutorial_15_reward_image_vid2-ltr.png);}
+.questWrapper .questImage img.tutorial_15_reward_image_vid3{background-image:url(../../img/quests/descriptionImage/tutorial_15_reward_image_vid3.png);}
+.questWrapper .questImage img.tutorial_15_task_image{background-image:url(../../img/quests/descriptionImage/tutorial_15_task_image-ltr-ignore.png);}
+.questWrapper .questImage img.economy_01{background-image:url(../../img/quests/descriptionImage/economy_01-ltr-ignore.png);}
+.questWrapper .questImage img.economy_02{background-image:url(../../img/quests/descriptionImage/economy_02-ltr-ignore.png);}
+.questWrapper .questImage img.economy_03{background-image:url(../../img/quests/descriptionImage/economy_03-ltr-ignore.png);}
+.questWrapper .questImage img.economy_04{background-image:url(../../img/quests/descriptionImage/economy_04-ltr-ignore.png);}
+.questWrapper .questImage img.economy_05{background-image:url(../../img/quests/descriptionImage/economy_05-ltr-ignore.png);}
+.questWrapper .questImage img.economy_06{background-image:url(../../img/quests/descriptionImage/economy_06-ltr-ignore.png);}
+.questWrapper .questImage img.economy_07{background-image:url(../../img/quests/descriptionImage/economy_07-ltr.png);}
+.questWrapper .questImage img.economy_08{background-image:url(../../img/quests/descriptionImage/economy_08-ltr-ignore.png);}
+.questWrapper .questImage img.economy_09{background-image:url(../../img/quests/descriptionImage/economy_09-ltr-ignore.png);}
+.questWrapper .questImage img.economy_10{background-image:url(../../img/quests/descriptionImage/economy_10-ltr-ignore.png);}
+.questWrapper .questImage img.economy_11{background-image:url(../../img/quests/descriptionImage/economy_11-ltr-ignore.png);}
+.questWrapper .questImage img.economy_12{background-image:url(../../img/quests/descriptionImage/economy_12-ltr-ignore.png);}
+.questWrapper .questImage img.battle_01{background-image:url(../../img/quests/descriptionImage/battle_01-ltr-ignore.png);}
+.questWrapper .questImage img.battle_02{background-image:url(../../img/quests/descriptionImage/battle_02-ltr-ignore.png);}
+.questWrapper .questImage img.battle_03{background-image:url(../../img/quests/descriptionImage/battle_03-ltr-ignore.png);}
+.questWrapper .questImage img.battle_04{background-image:url(../../img/quests/descriptionImage/battle_04-ltr-ignore.png);}
+.questWrapper .questImage img.battle_05_vid1{background-image:url(../../img/quests/descriptionImage/battle_05_vid1-ltr.png);}
+.questWrapper .questImage img.battle_05_vid2{background-image:url(../../img/quests/descriptionImage/battle_05_vid2-ltr.png);}
+.questWrapper .questImage img.battle_05_vid3{background-image:url(../../img/quests/descriptionImage/battle_05_vid3-ltr.png);}
+.questWrapper .questImage img.battle_06_vid1{background-image:url(../../img/quests/descriptionImage/battle_06_vid1-ltr.png);}
+.questWrapper .questImage img.battle_06_vid2{background-image:url(../../img/quests/descriptionImage/battle_06_vid2-ltr.png);}
+.questWrapper .questImage img.battle_06_vid3{background-image:url(../../img/quests/descriptionImage/battle_06_vid3-ltr.png);}
+.questWrapper .questImage img.battle_07{background-image:url(../../img/quests/descriptionImage/battle_07-ltr.png);}
+.questWrapper .questImage img.battle_08{background-image:url(../../img/quests/descriptionImage/battle_08-ltr.png);}
+.questWrapper .questImage img.battle_09{background-image:url(../../img/quests/descriptionImage/battle_09-ltr.png);}
+.questWrapper .questImage img.battle_10{background-image:url(../../img/quests/descriptionImage/battle_10-ltr-ignore.png);}
+.questWrapper .questImage img.battle_11{background-image:url(../../img/quests/descriptionImage/battle_11-ltr-ignore.png);}
+.questWrapper .questImage img.battle_12_vid1{background-image:url(../../img/quests/descriptionImage/battle_12_vid1-ltr.png);}
+.questWrapper .questImage img.battle_12_vid2{background-image:url(../../img/quests/descriptionImage/battle_12_vid2-ltr.png);}
+.questWrapper .questImage img.battle_12_vid3{background-image:url(../../img/quests/descriptionImage/battle_12_vid3-ltr.png);}
+.questWrapper .questImage img.battle_13{background-image:url(../../img/quests/descriptionImage/battle_13-ltr-ignore.png);}
+.questWrapper .questImage img.battle_14{background-image:url(../../img/quests/descriptionImage/battle_14-ltr.png);}
+.questWrapper .questImage img.world_01{background-image:url(../../img/quests/descriptionImage/world_01-ltr.png);}
+.questWrapper .questImage img.world_02{background-image:url(../../img/quests/descriptionImage/world_02-ltr-ignore.png);}
+.questWrapper .questImage img.world_03{background-image:url(../../img/quests/descriptionImage/world_03-ltr-ignore.png);}
+.questWrapper .questImage img.world_04{background-image:url(../../img/quests/descriptionImage/world_04-ltr-ignore.png);}
+.questWrapper .questImage img.world_05{background-image:url(../../img/quests/descriptionImage/world_05-ltr.png);}
+.questWrapper .questImage img.world_06{background-image:url(../../img/quests/descriptionImage/world_06-ltr-ignore.png);}
+.questWrapper .questImage img.world_07{background-image:url(../../img/quests/descriptionImage/world_07-ltr-ignore.png);}
+.questWrapper .questImage img.world_08{background-image:url(../../img/quests/descriptionImage/world_08-ltr.png);}
+.questWrapper .questImage img.world_09{background-image:url(../../img/quests/descriptionImage/world_09-ltr-ignore.png);}
+.questWrapper .questImage img.world_10{background-image:url(../../img/quests/descriptionImage/world_10-ltr-ignore.png);}
+.questWrapper .questImage img.world_11{background-image:url(../../img/quests/descriptionImage/world_11-ltr.png);}
+.questWrapper .questImage img.world_12{background-image:url(../../img/quests/descriptionImage/world_12-ltr-ignore.png);}
+.questWrapper .questImage img.world_13{background-image:url(../../img/quests/descriptionImage/world_13-ltr.png);}
+.questWrapper .questImage img.world_14{background-image:url(../../img/quests/descriptionImage/world_14-ltr-ignore.png);}
+.questWrapper .questImage img.world_15_vid1{background-image:url(../../img/quests/descriptionImage/world_15_vid1-ltr.png);}
+.questWrapper .questImage img.world_15_vid2{background-image:url(../../img/quests/descriptionImage/world_15_vid2-ltr.png);}
+.questWrapper .questImage img.world_15_vid3{background-image:url(../../img/quests/descriptionImage/world_15_vid3-ltr.png);}
+.questWrapper .questImage img.world_16{background-image:url(../../img/quests/descriptionImage/world_16-ltr.png);}
+.questWrapper .questImage img.achievementQuest_01{background-image:url(../../img/quests/descriptionImage/achievementQuest_01-ltr-ignore.png);}
+.questWrapper .questImage img.achievementQuest_02{background-image:url(../../img/quests/descriptionImage/achievementQuest_02-ltr-ignore.png);}
+.questWrapper .questImage img.achievementQuest_03{background-image:url(../../img/quests/descriptionImage/achievementQuest_03-ltr-ignore.png);}
+.questWrapper .questImage img.achievementQuest_04{background-image:url(../../img/quests/descriptionImage/achievementQuest_04-ltr.png);}
+.questWrapper .questImage img.achievementQuest_05{background-image:url(../../img/quests/descriptionImage/achievementQuest_05-ltr-ignore.png);}
+.questWrapper .questImage img.achievementQuest_06{background-image:url(../../img/quests/descriptionImage/achievementQuest_06-ltr-ignore.png);}
+.questWrapper .questImage img.achievementQuest_07{background-image:url(../../img/quests/descriptionImage/achievementQuest_07-ltr-ignore.png);}
+.questWrapper .questImage img.achievementQuest_08{background-image:url(../../img/quests/descriptionImage/achievementQuest_08-ltr-ignore.png);}
+.questWrapper .questImage img.achievementQuest_09{background-image:url(../../img/quests/descriptionImage/achievementQuest_09-ltr-ignore.png);}
+.questWrapper .questImage img.achievementQuest_10{background-image:url(../../img/quests/descriptionImage/achievementQuest_10-ltr-ignore.png);}
+.questWrapper .questImage img.AchievementQuestReward_01{background-image:url(../../img/quests/descriptionImage/achievementReward_01-ltr-ignore.png);}
+.questWrapper .questImage img.AchievementQuestReward_02{background-image:url(../../img/quests/descriptionImage/achievementReward_02-ltr-ignore.png);}
+.questWrapper .questImage img.AchievementQuestReward_03{background-image:url(../../img/quests/descriptionImage/achievementReward_03-ltr-ignore.png);}
+.questWrapper .questImage img.AchievementQuestReward_04{background-image:url(../../img/quests/descriptionImage/achievementReward_04-ltr-ignore.png);}
+.sidebarBox .layoutButton.highlighted.background{background-image:url(../../img/quests/highlight/layoutButtonHighlight.png);background-position:left top;margin-top:0;margin-left:0;}
+div#center #closeContentButton.highlighted.background{background-image:url(../../img/quests/highlight/contentTitleButtonHighlight.png);background-position:left top;margin-top:0;}
+div#center #closeContentButton.highlighted.background:hover{background-position:left top;}
+#navigation .inactive.highlighted.background{background-image:url(../../img/quests/highlight/navigationButtonHighlight.png);background-position:left top;margin-top:0;margin-left:2px;}
+#navigation .inactive.highlighted.background:hover,#navigation .inactive.highlighted.background:active,#navigation .inactive.highlighted.background.active{background-position:left top;}
+#navigation li a.highlighted.background{background-image:url(../../img/quests/highlight/navigationButtonHighlight.png);background-position:left top;margin-top:0;margin-left:2px;}
+.perspectiveResources #village_map .level.highlighted.background{background-image:url(../../img/quests/highlight/resourceFieldHighlight.png);background-position:left top;margin-left:1px;}
+.perspectiveBuildings #village_map .iso.highlighted.background{background-image:url(../../img/quests/highlight/buildingPlaceHighlight-ltr.png);background-position:left top;}
+.perspectiveBuildings #village_map .g16e.highlighted.background{background-image:url(../../img/quests/highlight/rallyPointBuildingPlaceHighlight-ltr.png);background-position:left top;}
+div.sidebar div#sidebarBoxHero .heroImageButton.highlighted.background{background-image:url(../../img/quests/highlight/heroButtonHighlight.png);background-position:left top;margin-left:2px;}
+#questTodoListDialog ul li.questName img.reward{background-image:url(../../img/a/check.png);width:12px;height:12px;}
+#questTodoListDialog ul{list-style:none;}div.dialog div.content h1.questList{color:#7B624C;text-align:center;}
+div.dialog div.questWrapper div.achievement div.nextReset{color:#7B624C;text-align:center;margin-bottom:3px;font-size:10px;}
+div.dialog div.content div.birthdayRibbonContainer{background-image:url("../../img/quests/achievement/band_rot.png");height:58px;width:454px;position:absolute;left:57px;top:-30px;text-align:center;}
+div.dialog div.content div.birthdayRibbonContainer div.headline{color:#FFF;font-size:22px;padding-top:14px;}
+div.dialog div.content div.pointsAndAchievements{margin-top:10px;}div.dialog div.content div.achievementPoints{background-image:url("../../img/quests/achievement/kranz.png");height:109px;padding:1px;text-align:center;width:122px;float:left;}
+div.dialog div.content div.achievementPoints div.points{font-size:25px;margin-top:42px;padding-right:5px;}
+div.dialog div.content div.achievementPoints div.pointstext{font-size:14px;padding-right:5px;padding-top:16px;}
+div.dialog div.content #achievementRewardList div.achievement{float:left;position:relative;}
+div.dialog div.content #achievementRewardList div.achievement div.hook img{height:30px;width:30px;background-image:url("../../img/quests/achievement/haken_gruen.png");position:absolute;}
+div.dialog div.content #achievementRewardList div.achievement div.hook.points_25 img{left:57px;top:-2px;}
+div.dialog div.content #achievementRewardList div.achievement div.hook.points_50 img{left:49px;top:-2px;}
+div.dialog div.content #achievementRewardList div.achievement div.hook.points_75 img{left:45px;top:-2px;}
+div.dialog div.content #achievementRewardList div.achievement div.hook.points_100 img{left:45px;top:-2px;}
+div#achievementRewardList div.achievement div.pointAmount{color:black;font-weight:normal;}
+div#achievementRewardList div.achievement div.pointAmount.points_25{font-size:21px;left:42px;position:absolute;top:20px;}
+div#achievementRewardList div.achievement div.pointAmount.points_50{font-size:21px;left:32px;position:absolute;top:20px;}
+div#achievementRewardList div.achievement div.pointAmount.points_75{font-size:21px;left:30px;position:absolute;top:20px;}
+div#achievementRewardList div.achievement div.pointAmount.points_100{font-size:21px;left:24px;position:absolute;top:20px;}
+div.dialog div.content #achievementRewardList div.achievement .bigSpeechBubble.rewardReady img{background-image:url("../../img/layout/icons/exclamationMark-ltr.png");}
+div.dialog div.content #achievementRewardList div.achievement .bigSpeechBubble{position:absolute;left:-12px;top:76px;}
+div.dialog div.content #achievementRewardList div.achievementArrow{background:url("../../img/quests/achievement/pfeil.png") no-repeat center center;float:left;width:9px;height:112px;margin-left:5px;margin-right:3px;}
+div.dialog div.content #achievementRewardList div.verticalLine{background-color:#DCD6CA;float:left;width:1px;height:112px;margin-left:10px;margin-right:3px;}
+div.dialog div.content #achievementRewardList img.points_25{width:89px;height:112px;background:url("../../img/quests/achievement/btn_brown_25.png") -18px center;}
+div.dialog div.content #achievementRewardList img.points_50{width:89px;height:112px;background:url("../../img/quests/achievement/btn_brown_50.png") -25px center;}
+div.dialog div.content #achievementRewardList img.points_75{width:89px;height:112px;background:url("../../img/quests/achievement/btn_brown_75.png") -28px center;}
+div.dialog div.content #achievementRewardList img.points_100{width:89px;height:112px;background:url("../../img/quests/achievement/btn_brown_100.png") -28px center;}
+div.dialog div.content #achievementRewardList img.points_25.active{background:url("../../img/quests/achievement/btn_green_25.png") -4px center;}
+div.dialog div.content #achievementRewardList img.points_50.active{background:url("../../img/quests/achievement/btn_green_50.png") -25px center;}
+div.dialog div.content #achievementRewardList img.points_75.active{background:url("../../img/quests/achievement/btn_green_75.png") -28px center;}
+div.dialog div.content #achievementRewardList img.points_100.active{background:url("../../img/quests/achievement/btn_green_100.png") -28px center;}
+div.dialog div.content #achievementQuestList{border-top:2px solid #DCD6CA;background-color:#F6F2E6;border-collapse:collapse;}
+div.dialog div.content #achievementQuestList tr{height:32px;}div.dialog div.content #achievementQuestList td{background-color:transparent;border-bottom:2px solid #FFF;}
+div.dialog div.content #achievementQuestList tr.zebra td{background-color:#EFECDB;}
+div.dialog div.content #achievementQuestList img.hook{height:30px;width:30px;}div.dialog div.content #achievementQuestList img.hook.working{background-image:url("../../img/quests/achievement/haken_weiss.png");}
+div.dialog div.content #achievementQuestList img.hook.done{background-image:url("../../img/quests/achievement/haken_gruen.png");}
+div.dialog div.content #achievementQuestList tr{height:41px;}div.dialog div.content #achievementQuestList td.hook{width:35px;}
+div.dialog div.content #achievementQuestList td.steps{width:35px;}div.dialog div.content #achievementQuestList td.points{width:70px;color:#99C01A;font-weight:bold;}
+div#sidebarBoxQuestachievements.sidebarBox div.questAchievementContainer{text-align:center;}
+div#sidebarBoxQuestachievements.sidebarBox div.boxTitle{color:#7B5940;font-size:15px;font-weight:normal;padding-top:17px;text-align:center;}
+div#sidebarBoxQuestachievements.sidebarBox div.travianBirthdayRibbon{background-image:url("../../img/quests/achievement/band_rot_klein.png");width:160px;height:35px;text-align:center;position:absolute;top:-17px;left:12px;}
+div#sidebarBoxQuestachievements.sidebarBox div.travianBirthdayRibbon div.headline{color:#FFF;font-size:13px;padding-right:3px;padding-top:8px;}
+.questWrapper.achievements h2.questTitle{text-align:center;margin-top:10px;}.questWrapper.achievements .difficulty.moderate{color:#006400;}
+.questWrapper.achievements .difficulty.challenging{color:#FF8C00;}.questWrapper.achievements .difficulty.hard{color:#8b0000;}
+div.bigSpeechBubble{background:url(../../img/round/speechBubble/speechBalloonLarge-ltr.png);width:55px;height:44px;}
+.bigSpeechBubble img{width:30px;height:30px;position:relative;left:6px;top:6px;}
+button.layoutButton,button.layoutButton div.button-container{width:32px;height:32px;padding:0;}
+button.layoutButton{overflow:visible;}.gecko button.layoutButton div.button-container{top:-1px;left:-3px;}
+button.layoutButton.green div.button-container{background-image:url(../../img/layout/buttonRoundGreen-ltr.png);}
+.ie6 button.layoutButton.green div.button-container{background-image:url(../../img/layout/buttonRoundGreen-ltr.gif);background-color:transparent;}
+.ie6 button.layoutButton.green div.button-container div.button-content{background-color:#006400;}
+button.layoutButton.gold div.button-container{background-image:url(../../img/layout/buttonRoundGold-ltr.png);}
+.ie6 button.layoutButton.gold div.button-container{background-image:url(../../img/layout/buttonRoundGold-ltr.gif);background-color:transparent;}
+.ie6 button.layoutButton.gold div.button-container div.button-content{background-color:#DAA520;}
+button.layoutButton div.button-container{background-position:left top;}button.layoutButton div.hover{background-position:left -42px;}
+button.layoutButton div.click{background-position:left -84px;}.presto button.layoutButton div.click{margin-top:-2px;left:-1px;}
+button.layoutButton.disabled div.button-container{background-position:left -126px;}
+button.layoutButton div.button-container img{background-image:url(../../img/layout/icons/buttonIcons-ltr.png);width:32px;height:32px;}
+.ie6 button.layoutButton div.button-container img{background-image:url(../../img/layout/icons/buttonIcons-ltr.gif);}
+button.layoutButton.overviewWhite div.button-container img{background-position:left top;}
+button.layoutButton.allianceForumWhite div.button-container img{background-position:left -42px;}
+button.layoutButton.embassyOverviewWhite div.button-container img{background-position:left -84px;}
+button.layoutButton.editWhite div.button-container img{background-position:left -84px;}
+button.layoutButton.editBlack div.button-container img{background-position:left -126px;}
+button.layoutButton.marketWhite div.button-container img{background-position:left -168px;}
+button.layoutButton.marketBlack div.button-container img{background-position:left -210px;}
+button.layoutButton.barracksWhite div.button-container img{background-position:left -252px;}
+button.layoutButton.barracksBlack div.button-container img{background-position:left -294px;}
+button.layoutButton.stableWhite div.button-container img{background-position:left -336px;}
+button.layoutButton.stableBlack div.button-container img{background-position:left -378px;}
+button.layoutButton.workshopWhite div.button-container img{background-position:left -420px;}
+button.layoutButton.workshopBlack div.button-container img{background-position:left -462px;}
+button.layoutButton.toggleCoordsWhite div.button-container img{background-position:left -504px;}
+button.layoutButton.embassyWhite div.button-container img{background-position:left -546px;}
+button.layoutButton.bulbWhite div.button-container img{background-position:left -588px;}
+button.layoutButton.adventureWhite div.button-container img{background-position:left -630px;}
+button.layoutButton.auctionWhite div.button-container img{background-position:left -672px;}
+button.layoutButton.bulbActive div.button-container img{background-position:left -714px;}
+.ie7 button.layoutButton.disabled div.button-container img,.ie8 button.layoutButton.disabled div.button-container img,.ie7 button.layoutButton.gold .hover img,.ie8 button.layoutButton.gold .hover img{background-image:url(../../img/layout/icons/buttonIcons-ltr.gif);}
+button.layoutButton.gold .hover img{filter:alpha(opacity=80);opacity:.7;}button.layoutButton.green.disabled div.button-container img{filter:alpha(opacity=70);opacity:.6;}
+button.layoutButton.gold.disabled div.button-container img{filter:alpha(opacity=40);opacity:.5;}
+#expansionCulturePoints table{width:58%;margin-bottom:20px;position:relative;z-index:15;}
+#expansionCulturePoints table th,#expansionCulturePoints table td{vertical-align:top;}
+#expansionCulturePoints td{text-align:right;}#expansionCulturePoints th{text-align:left;}
+#expansionCulturePoints .fluidSpeechBubble-container{width:41%;position:absolute;bottom:0;right:0;z-index:8;}
+.ie6 #expansionCulturePoints .fluidSpeechBubble-container{position:relative;}.ie7 #expansionCulturePoints .fluidSpeechBubble-container{margin-bottom:10px;}
+#expansionCulturePoints #villageSlotInformation,#expansionCulturePoints #festivalsHint,#expansionCulturePoints #culturePointsProductionHint{position:relative;}
+.ie7 #expansionCulturePoints>div{display:inline-block;}#expansionCulturePoints .fluidSpeechBubble{margin:0 auto;margin-bottom:-8px;width:auto;}
+.ie7 #expansionCulturePoints .fluidSpeechBubble{width:100%;margin-bottom:8px;}#expansionCulturePoints .totalRow td,.totalRow th{font-weight:bold;}
+#expansionCulturePoints .culturePointsSummary,#expansionCulturePoints .culturePointsProduction,#expansionCulturePoints .currentFestivals{border-bottom:3px double black;}
+#expansionCulturePoints .totalRow td div{float:right;}#expansionCulturePoints .totalRow td .speechArrowWrapper{position:absolute;right:-8px;}
+#expansionCulturePoints .totalRow td div.speechArrowBack{margin:0 auto;}#expansionCulturePoints td div.speechArrowBack{background-image:url("../../img/round/speechBubble/arrowBack-ltr.png");}
+.ie6 #expansionCulturePoints td div.speechArrowBack{background-image:url("../../img/round/speechBubble/arrowBack-ltr.gif");}
+#expansionCulturePoints td div.speechArrowBack{height:23px;top:-3px;width:12px;z-index:10;}
+#expansionCulturePoints td div.speechArrowBack{position:relative;}#expansionCulturePoints .fluidSpeechBubble .speechArrowBack{display:none;}
+div#loyaltyTab td,div#loyaltyTab th{vertical-align:top;padding:2px 7px;}div#loyaltyTab table thead td,div#loyaltyTab table thead th{text-align:center;}
+div#loyaltyTab table th{width:50%;}div#loyaltyTab table td{width:25%;}div#loyaltyTab table tbody td{text-align:right;}
+div#loyaltyTab table tbody th{text-align:left;}div#loyaltyTab table tbody td.low{color:#DE0000;}
+div#loyaltyTab table tbody td.medium{color:#666;}div#loyaltyTab table tbody td.high{color:#228B22;}
+div#loyaltyTab .currentLoyalty{font-weight:bold;}
+.changeLocation { display:none; }

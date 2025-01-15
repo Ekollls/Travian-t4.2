@@ -1,0 +1,5 @@
+#hero_body_content { margin-left:32px; }
+div.sidebar div#sidebarBoxHero .heroImageButton img.heroImage { left:17px; bottom:1px; }
+.gecko div.sidebar div#sidebarBoxHero .heroImageButton img.heroImage { left:17px; bottom:1px; }
+#top_browser_box { display:none; }
+.lowResInfo { height:25px; }

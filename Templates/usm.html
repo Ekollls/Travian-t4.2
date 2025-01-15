@@ -1,0 +1,50 @@
+<div class="paper">
+	<div class="layout">
+		<div class="paperTop">
+			<div class="paperContent">
+			<?php
+			if($database->checkBan($session->uid)){
+				echo sprintf(BANMSG,$session->username);
+			}else{?>
+					
+				<div id="subject">
+					<div class="header label"><?php echo PUBMSGTITLE; ?></div>
+					<div class="header text"><?php echo HELLO.' '.$session->username; ?></div>
+					<div class="clear"></div>
+				</div>
+				<div class="separator"></div>
+				<div id="message"><?php include("Templates/text.tpl"); ?></div>
+
+		<div id="answer">
+<button type="submit" value="<?php echo GOTOMYVILLAGE; ?>" name="s1" id="s1" class="green ">
+	<div class="button-container addHoverClick">
+		<div class="button-background">
+			<div class="buttonStart">
+				<div class="buttonEnd">
+					<div class="buttonMiddle"></div>
+				</div>
+			</div>
+		</div>
+		<div class="button-content"><?php echo GOTOMYVILLAGE; ?></div>
+	</div>
+</button>
+<script type="text/javascript">
+	window.addEvent('domready', function()
+	{
+	if($('s1'))
+	{
+		$('s1').addEvent('click', function ()
+		{
+			window.fireEvent('buttonClicked', [this, {"type":"submit","value":"<?php echo GOTOMYVILLAGE; ?>","name":"s1","id":"s1","class":"green ","title":"","confirm":"","onclick":""}]);
+		});
+	}
+	});
+</script>
+					<div class="clear"></div>
+				</div>
+				<?php } ?>
+			</div>
+		</div>
+		<div class="paperBottom"></div>
+	</div>
+</div>

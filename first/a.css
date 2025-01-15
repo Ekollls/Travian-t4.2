@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";@import "compact1.css";@import "compact2.css";#button button.sendRessources,#button button.prepare{float:left;}
+div#build.gid17 span.pleaseConfirm{color:#a2a2a2;font-weight:normal;padding-right:0;}
+#notEnoughMerchantsError{padding-bottom:10px;}#prepareError{padding-right:3px;float:right;width:70%;}
+a.notClickable{cursor:default;color:#d2d2d2;}a#emBanner{width:163px;height:117px;background-image:url(../img/misc/emBanner.png);display:block;z-index:30;}
+.ie6 a#emBanner{background-image:url(../img/misc/emBanner.gif);}a.emBannerUnderVillageList{position:relative;right:21px;}
+a.emBannerUnderVillageName{position:absolute;right:-805px;top:200px;}div.emSpecial div.voteInfos{padding:0 10px;}
+div.emSpecial span.emManualHeader{font-weight:bold;text-decoration:underline;}div.emSpecial ul.emManual{padding-right:14px;margin:5px 0;}
+div.emSpecial p.emManualDescription{font-style:italic;}div.emSpecial table.currentValues{margin-bottom:10px;}
+div.emSpecial table.currentValues td,div.emSpecial table.currentValues th{font-weight:bold;vertical-align:top;padding:5px 0 0;}
+div.emSpecial table.currentValues th{width:50%;}div.emSpecial table.currentValues td.showInfo{color:#F88C1F;}
+div.emSpecial table.currentValues td.prizeHint{font-style:italic;font-size:10px;padding:0;line-height:11px;}
+div.emSpecial div.buttonWrapper{text-align:left;}div.emSpecial ul#emPossibleWinners{list-style:none;padding-right:10px;}
+div.emSpecial ul#emPossibleWinners li{float:right;width:260px;margin-bottom:2px;}
+div.emSpecial ul#emPossibleWinners img.flags{margin-top:5px;height:11px;width:16px;background-image:url(../img/misc/flags/country_sprite.png);border-top:1px solid #AAA;}
+.ie6 div.emSpecial ul#emPossibleWinners img.flags{background-image:url(../img/misc/flags/country_sprite.gif);}
+div.emSpecial ul#emPossibleWinners img.flag_de{background-position:-880px 0;}div.emSpecial ul#emPossibleWinners img.flag_ru{background-position:-3008px 0;}
+div.emSpecial ul#emPossibleWinners img.flag_gr{background-position:-1424px 0;}div.emSpecial ul#emPossibleWinners img.flag_pl{background-position:-2816px 0;}
+div.emSpecial ul#emPossibleWinners img.flag_cz{background-position:-864px 0;}div.emSpecial ul#emPossibleWinners img.flag_dk{background-position:-912px 0;}
+div.emSpecial ul#emPossibleWinners img.flag_nl{background-position:-2608px 0;}div.emSpecial ul#emPossibleWinners img.flag_pt{background-position:-2896px 0;}
+div.emSpecial ul#emPossibleWinners img.flag_ie{background-position:-1632px 0;}div.emSpecial ul#emPossibleWinners img.flag_it{background-position:-1744px 0;}
+div.emSpecial ul#emPossibleWinners img.flag_hr{background-position:-1568px 0;}div.emSpecial ul#emPossibleWinners img.flag_es{background-position:-1072px 0;}
+div.emSpecial ul#emPossibleWinners img.flag_uk,div.emSpecial ul#emPossibleWinners img.flag_gb{background-position:-1040px 0;}
+div.emSpecial ul#emPossibleWinners img.flag_fr{background-position:-1216px 0;}div.emSpecial ul#emPossibleWinners img.flag_se{background-position:-3120px 0;}
+div.emSpecial ul#emPossibleWinners img.flag_ua{background-position:-3616px 0;}a#goldSpecialBanner{width:159px;height:122px;background-image:url(../img/misc/goldSpecial/speed/banner.png);display:block;z-index:30;}
+.ie6 a#goldSpecialBanner{background-image:url(../img/misc/goldSpecial/speed/banner.gif);}
+a.goldSpecialBannerUnderVillageList{position:relative;right:21px;}a.goldSpecialBannerUnderVillageName{position:absolute;right:-805px;top:200px;}
+div.goldSpecialSpeed h5{font-size:18pt;font-weight:bold;margin:20px 0;}div.goldSpecialSpeed img.goldSpecialSpeed5,div.goldSpecialSpeed img.goldSpecialSpeed10{height:99px;width:99px;}
+div.goldSpecialSpeed img.goldSpecialSpeed5{background-image:url(../img/misc/goldSpecial/speed/speed_payment_5.jpg);}
+div.goldSpecialSpeed img.goldSpecialSpeed10{background-image:url(../img/misc/goldSpecial/speed/speed_payment_10.jpg);}
+div.goldSpecialSpeed table td{padding-right:0;}img.g35{background-image:url(../img/g/g35_teahouse-rtl.png);}
+.ie6 img.g35{background-image:url(../img/g/g35_teahouse-rtl.gif);}img.g35b{background-image:url(../img/g/construction/g35b_teahouse-rtl.png);}
+.ie6 img.g35b{background-image:url(../img/g/construction/g35b_teahouse-rtl.gif);}
+img.g35Icon{background-image:url(../img/g/icon/g35Icon_teahouse.gif);}.ie7 img.g35.big.white,.ie8 img.g35.big.white,.ie9 img.g35.big.white,.webkit img.g35.big.white,.gecko img.g35.big.white,.presto img.g35.big.white{background-image:url(../img/g/big/white/g35_teahouse-rtl.png);}
+.ie7 img.g35.big.black,.ie8 img.g35.big.black,.ie9 img.g35.big.black,.webkit img.g35.big.black,.gecko img.g35.big.black,.presto img.g35.big.black{background-image:url(../img/g/big/black/g35_teahouse-rtl.png);}
+.ie6 div.build_desc img.g35{background-image:url(../img/g/big/black/g35_teahouse-rtl.gif);}
+.ie6 div.dialog .manual img.g35{background-image:url(../img/g/big/black/g35_teahouse-rtl.gif);}
